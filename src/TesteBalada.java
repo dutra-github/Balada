@@ -5,7 +5,7 @@ import javax.swing.JOptionPane;
 public class TesteBalada {
 
 	public static void main(String[] args) {
-
+		String nome;
 		int tipoIngresso = Integer
 				.parseInt(JOptionPane.showInputDialog("Qual o tipo de Ingresso?\n1 - Normal\n2 - VIP"));
 		Normal n = new Normal();
